@@ -1,33 +1,18 @@
-# nur-tickets-app
+#1 Clone the repository
 
-This template should help get you started developing with Vue 3 in Vite.
+git clone https://github.com/kanybekoov/Nur-ticket-app.git
+cd nur-tickets-app
 
-## Recommended IDE Setup
+#2 Build and run with Docker Compose
+docker compose up --build
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+#3 Open your browser and visit
+ttp://localhost:8080
 
-## Type Support for `.vue` Imports in TS
+#username and password at LoginPage
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+email: operator@gmail.com
+password: 123oper
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+email: supervisor@gmail.com
+password: 123super
